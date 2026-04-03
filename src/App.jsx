@@ -7,6 +7,12 @@ const App = () => {
     <div className='container max-w-7xl mx-auto'>
       <Navbar />
       <Hero />
+
+      <section className='min-h-screen'/>
+      <section className='min-h-screen'/>
+      <section className='min-h-screen'/>
+      <section className='min-h-screen'/>
+      <section className='min-h-screen'/>
       {/* about */}
       {/* project */}
       {/* experience */}
