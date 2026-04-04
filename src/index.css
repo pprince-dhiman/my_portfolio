@@ -72,7 +72,7 @@ body {
 }
 
 .headtext {
-  @apply mt-2 mb-2 text-xl;
+  @apply mt-2 mb-2 text-3xl;
 }
 
 .subtext {
