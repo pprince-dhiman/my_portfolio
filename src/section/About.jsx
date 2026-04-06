@@ -76,7 +76,60 @@ const About = () => {
                 </div>
 
                 {/* Grid 3 */}
-                <div className="grid-black-color grid-3"></div>
+                <div className="grid-black-color grid-3 relative flex items-center justify-center overflow-hidden">
+
+                    {/* Background Glow */}
+                    <div className="absolute w-72 h-72 bg-indigo-500/20 blur-3xl rounded-full"></div>
+
+                    {/* Main Content */}
+                    <div className="relative z-10 text-center">
+                        <p className="headtext">Tech Stack</p>
+                        <p className="subtext mb-6">Tools I use to build scalable apps</p>
+
+                        {/* Tech Badges */}
+                        <div className="flex flex-wrap justify-center gap-3">
+
+                            {/* Badge */}
+                            <span className="px-4 py-2 text-sm bg-white/10 backdrop-blur-md rounded-full border border-white/20 hover:bg-white/20 transition">
+                                React
+                            </span>
+
+                            <span className="px-4 py-2 text-sm bg-white/10 backdrop-blur-md rounded-full border border-white/20 hover:bg-white/20 transition">
+                                Redux Toolkit
+                            </span>
+
+                            <span className="px-4 py-2 text-sm bg-white/10 backdrop-blur-md rounded-full border border-white/20 hover:bg-white/20 transition">
+                                Node.js
+                            </span>
+
+                            <span className="px-4 py-2 text-sm bg-white/10 backdrop-blur-md rounded-full border border-white/20 hover:bg-white/20 transition">
+                                Express
+                            </span>
+
+                            <span className="px-4 py-2 text-sm bg-white/10 backdrop-blur-md rounded-full border border-white/20 hover:bg-white/20 transition">
+                                MongoDB
+                            </span>
+
+                            <span className="px-4 py-2 text-sm bg-white/10 backdrop-blur-md rounded-full border border-white/20 hover:bg-white/20 transition">
+                                Tailwind
+                            </span>
+
+                            <span className="px-4 py-2 text-sm bg-white/10 backdrop-blur-md rounded-full border border-white/20 hover:bg-white/20 transition">
+                                JavaScript
+                            </span>
+
+                            <span className="px-4 py-2 text-sm bg-white/10 backdrop-blur-md rounded-full border border-white/20 hover:bg-white/20 transition">
+                                TypeScript
+                            </span>
+
+                        </div>
+                    </div>
+
+                    {/* Floating Elements */}
+                    <div className="absolute top-5 left-5 w-12 h-12 bg-indigo-500/20 rounded-full blur-xl"></div>
+                    <div className="absolute bottom-5 right-5 w-16 h-16 bg-purple-500/20 rounded-full blur-xl"></div>
+
+                </div>
 
                 {/* Grid 4 */}
                 <div className="grid-special-color grid-4"></div>
