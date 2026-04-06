@@ -1,11 +1,15 @@
 import { useState } from "react";
 import ProjectDetails from "./ProjectDetails"
 
-const Project = ({ title, description, subDescription, href, image, tags, setPreview, }) => {
+const Project = ({ title, description, subDescription, href, image, tags, setPreview }) => {
     const [isShow, setIsShow] = useState(false);
+
     return (
         <>
-            <div className="flex-wrap items-center py-10 justify-between space-y-14 sm:flex sm:space-y-0">
+            <div
+                onMouseEnter={() => setPreview(image)}
+                onMouseLeave={() => setPreview(null)}
+                className="flex-wrap items-center py-10 justify-between space-y-14 sm:flex sm:space-y-0">
                 <div>
                     <p className="text-2xl">{title}</p>
                     <div className="flex gap-5 mt-2 text-sand">
