@@ -1,12 +1,13 @@
 import { useRef } from 'react'
 import Card from '../components/Card';
 import CopyEmailButton from '../components/CopyEmailButton';
+import { Frameworks } from '../components/Frameworks';
 
 const About = () => {
     const grid2Container = useRef();
 
     return (
-        <section className="c-space section-spacing">
+        <section id="about" className="c-space section-spacing">
             <h2 className="text-heading">About Me</h2>
             <div className="grid grid-cols-1 gap-4 md:grid-cols-6 md:auto-rows-[18rem] mt-12">
 
@@ -143,7 +144,16 @@ const About = () => {
                 </div>
 
                 {/* Grid 5 */}
-                <div className="grid-default-color grid-5"></div>
+                <div className="grid-default-color grid-5">
+                    <h3 className='headText'>Tech Stack</h3>
+                    <p className='subtext'>
+                        I specialize in a variety of languages, frameworks, <br />
+                        and tools, that allow me to build robust and <br />
+                        scalable applications.</p>
+                    <div className='absolute inset-y-0 md:inset-y-7 size-full inset-s-[50%] md:scale-125'>
+                        <Frameworks />
+                    </div>
+                </div>
 
             </div>
         </section>
