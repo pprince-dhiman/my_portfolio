@@ -2,6 +2,7 @@ import React from 'react'
 import Navbar from './section/Navbar.jsx'
 import Hero from './section/Hero.jsx'
 import About from './section/About.jsx'
+import Projects from './section/Projects.jsx'
 
 const App = () => {
   return (
@@ -9,18 +10,15 @@ const App = () => {
       <Navbar />
       <Hero />
       <About />
-
-      <section className='min-h-screen'/>
-      <section className='min-h-screen'/>
-      <section className='min-h-screen'/>
-      <section className='min-h-screen'/>
-      <section className='min-h-screen'/>
-      {/* about */}
-      {/* project */}
+      <Projects />
       {/* experience */}
+      <section className='min-h-screen' />
       {/* testimonial */}
+      <section className='min-h-screen' />
       {/* contact */}
+      <section className='min-h-screen' />
       {/* footer */}
+      <section className='min-h-screen' />
     </div>
   )
 }
