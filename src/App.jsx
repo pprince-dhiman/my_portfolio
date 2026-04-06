@@ -1,8 +1,8 @@
-import React from 'react'
 import Navbar from './section/Navbar.jsx'
 import Hero from './section/Hero.jsx'
 import About from './section/About.jsx'
 import Projects from './section/Projects.jsx'
+import Experience from './section/Experience.jsx'
 
 const App = () => {
   return (
@@ -11,8 +11,7 @@ const App = () => {
       <Hero />
       <About />
       <Projects />
-      {/* experience */}
-      <section className='min-h-screen' />
+      <Experience />
       {/* testimonial */}
       <section className='min-h-screen' />
       {/* contact */}

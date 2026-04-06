@@ -6,8 +6,8 @@ import { motion, useMotionValue, useSpring } from "motion/react";
 const Projects = () => {
     const x = useMotionValue(200);
     const y = useMotionValue(200);
-    const springX = useSpring(x, { damping: 10, stiffness: 50 });
-    const springY = useSpring(y, { damping: 10, stiffness: 50 })
+    const springX = useSpring(x, { damping: 8, stiffness: 50 });
+    const springY = useSpring(y, { damping: 8, stiffness: 50 })
 
     const handleMouseMove = (e) => {
         x.set(e.clientX + 20);
