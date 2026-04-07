@@ -17,7 +17,7 @@ const Projects = () => {
     const [preview, setPreview] = useState(null);
 
     return (
-        <section
+        <section id="projects"
             onMouseMove={handleMouseMove}
             className="relative c-space section-spacing">
             <h2 className="text-heading">My Selected Projects</h2>

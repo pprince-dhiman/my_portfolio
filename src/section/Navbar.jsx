@@ -15,6 +15,11 @@ function Navigation() {
         </a>
       </li>
       <li className="text-neutral-400 hover:text-white max-sm:w-full max-sm:rounded-md py-2 max-sm:px-5">
+        <a className="text-lg md:text-base hover:text-white transition-colors" href="#projects">
+          Projects
+        </a>
+      </li>
+      <li className="text-neutral-400 hover:text-white max-sm:w-full max-sm:rounded-md py-2 max-sm:px-5">
         <a className="text-lg md:text-base hover:text-white transition-colors" href="#work">
           Work
         </a>

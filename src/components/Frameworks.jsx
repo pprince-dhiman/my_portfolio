@@ -3,21 +3,21 @@ import { OrbitingCircles } from "./OrbitingCircles";
 export function Frameworks() {
     const skills = [
         "auth0",
-        "blazor",
+        "framer-motion",
         "cplusplus",
-        "csharp",
+        "stripe",
         "css3",
-        "dotnet",
-        "dotnetcore",
+        "cloudinary",
         "git",
+        "github",
         "html5",
         "javascript",
-        "microsoft",
+        "Clerk",
         "react",
-        "sqlite",
+        "threejs",
         "tailwindcss",
         "vitejs",
-        "wordpress",
+        "visualstudiocode",
     ];
 
     return (
