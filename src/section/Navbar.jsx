@@ -33,7 +33,7 @@ const Navbar = () => {
 
 
   return (
-    <div className='fixed inset-x-0 z-20 w-full backdrop-blur-lg'>
+    <div className='fixed inset-x-0 z-50 w-full backdrop-blur-lg'>
       <div className='mx-auto sm:px-10 px-5 lg:px-15 max-w-7xl'>
         <div className='flex items-center justify-between py-2 sm:py-0'>
           <a href="/"
