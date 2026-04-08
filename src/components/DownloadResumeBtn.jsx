@@ -10,7 +10,7 @@ const DownloadResumeBtn = () => {
             <div className="flex items-center justify-center gap-2">
                 <img src="assets/download.webp" alt="download"
                     className='w-8 rounded-lg' />
-                <p className="text-xl">Download</p>
+                <p className="text-xl">Resume</p>
             </div>
         </motion.div>
     )
