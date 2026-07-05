@@ -175,6 +175,57 @@ export const myProjects = [
       },
     ],
   },
+  {
+    id: 5,
+    title: "AroundMe",
+    description:
+      "Built a full-stack event discovery platform where organizers can create organizations and post events across 3 categories (Hackathon, Workshop, Cultural events), with Clerk authentication, role-based access control, and 15+ protected routes.",
+    subDescription: [
+      "Engineered secure RESTful APIs using Node.js, Express.js, and MongoDB for organization, event, and user management, with server-side validation using Zod.",
+      "Developed a responsive frontend using React.js, Redux Toolkit, Tailwind CSS, and React Router.",
+      "ntegrated Cloudinary for organization logos, banners, and event thumbnail uploads, while implementing robust error handling, loading states, and reusable UI components.",
+    ],
+    href: "https://aroundme-silk.vercel.app/",
+    logo: "",
+    image: "/assets/projects/AroundMe.png",
+    tags: [
+      {
+        id: 1,
+        name: "MongoDB",
+        path: "/assets/logos/mongo-db.png",
+      },
+      {
+        id: 2,
+        name: "React",
+        path: "/assets/logos/react.svg",
+      },
+      {
+        id: 3,
+        name: "Express.js",
+        path: "/assets/logos/express.png",
+      },
+      {
+        id: 4,
+        name: "TailwindCSS",
+        path: "/assets/logos/tailwindcss.svg",
+      },
+      {
+        id: 5,
+        name: "Cloudinary",
+        path: "/assets/logos/cloudinary.svg",
+      },
+      {
+        id: 6,
+        name: "Clerk",
+        path: "/assets/logos/Clerk.svg",
+      },
+      {
+        id: 7,
+        name: "Stripe",
+        path: "/assets/logos/stripe.svg",
+      },
+    ],
+  },
 ];
 
 export const mySocials = [
